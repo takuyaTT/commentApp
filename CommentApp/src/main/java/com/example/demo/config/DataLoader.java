@@ -23,7 +23,7 @@ public class DataLoader implements CommandLineRunner {
 		repository.save(comment);
 		
 		comment = new Comment();
-		comment.setContent("山田まさゆき");
+		comment.setContent("山田");
 		repository.save(comment);
 	}
 }
